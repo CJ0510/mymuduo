@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/cj/CJPro/mymuduo/build/test",
+  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/test1.cpp.o -c /home/cj/CJPro/mymuduo/test/test1.cpp",
+  "file": "/home/cj/CJPro/mymuduo/test/test1.cpp"
+},
+{
+  "directory": "/home/cj/CJPro/mymuduo/build/test",
+  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.o -c /home/cj/CJPro/mymuduo/src/InetAddress.cc",
+  "file": "/home/cj/CJPro/mymuduo/src/InetAddress.cc"
+},
+{
+  "directory": "/home/cj/CJPro/mymuduo/build/test",
+  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/__/src/Logger.cpp.o -c /home/cj/CJPro/mymuduo/src/Logger.cpp",
+  "file": "/home/cj/CJPro/mymuduo/src/Logger.cpp"
+},
+{
+  "directory": "/home/cj/CJPro/mymuduo/build/test",
+  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/__/src/Timestamp.cpp.o -c /home/cj/CJPro/mymuduo/src/Timestamp.cpp",
+  "file": "/home/cj/CJPro/mymuduo/src/Timestamp.cpp"
+}
+]
