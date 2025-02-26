@@ -130,29 +130,53 @@ mymuduo/fast:
 	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/build
 .PHONY : mymuduo/fast
 
-__/src/InetAddress.o: __/src/InetAddress.cc.o
+__/src/Channel.o: __/src/Channel.cpp.o
+.PHONY : __/src/Channel.o
+
+# target to build an object file
+__/src/Channel.cpp.o:
+	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/Channel.cpp.o
+.PHONY : __/src/Channel.cpp.o
+
+__/src/Channel.i: __/src/Channel.cpp.i
+.PHONY : __/src/Channel.i
+
+# target to preprocess a source file
+__/src/Channel.cpp.i:
+	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/Channel.cpp.i
+.PHONY : __/src/Channel.cpp.i
+
+__/src/Channel.s: __/src/Channel.cpp.s
+.PHONY : __/src/Channel.s
+
+# target to generate assembly for a file
+__/src/Channel.cpp.s:
+	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/Channel.cpp.s
+.PHONY : __/src/Channel.cpp.s
+
+__/src/InetAddress.o: __/src/InetAddress.cpp.o
 .PHONY : __/src/InetAddress.o
 
 # target to build an object file
-__/src/InetAddress.cc.o:
-	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.o
-.PHONY : __/src/InetAddress.cc.o
+__/src/InetAddress.cpp.o:
+	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/InetAddress.cpp.o
+.PHONY : __/src/InetAddress.cpp.o
 
-__/src/InetAddress.i: __/src/InetAddress.cc.i
+__/src/InetAddress.i: __/src/InetAddress.cpp.i
 .PHONY : __/src/InetAddress.i
 
 # target to preprocess a source file
-__/src/InetAddress.cc.i:
-	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.i
-.PHONY : __/src/InetAddress.cc.i
+__/src/InetAddress.cpp.i:
+	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/InetAddress.cpp.i
+.PHONY : __/src/InetAddress.cpp.i
 
-__/src/InetAddress.s: __/src/InetAddress.cc.s
+__/src/InetAddress.s: __/src/InetAddress.cpp.s
 .PHONY : __/src/InetAddress.s
 
 # target to generate assembly for a file
-__/src/InetAddress.cc.s:
-	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.s
-.PHONY : __/src/InetAddress.cc.s
+__/src/InetAddress.cpp.s:
+	cd /home/cj/CJPro/mymuduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/__/src/InetAddress.cpp.s
+.PHONY : __/src/InetAddress.cpp.s
 
 __/src/Logger.o: __/src/Logger.cpp.o
 .PHONY : __/src/Logger.o
@@ -235,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mymuduo"
+	@echo "... __/src/Channel.o"
+	@echo "... __/src/Channel.i"
+	@echo "... __/src/Channel.s"
 	@echo "... __/src/InetAddress.o"
 	@echo "... __/src/InetAddress.i"
 	@echo "... __/src/InetAddress.s"

@@ -18,7 +18,7 @@ Channel::~Channel()
 {
 }
 
-// channel的tie方法什么时候调用过？一个TcpConnection新连接创建的时候 TcpConnection => Channel 
+// channel的tie方法什么时候调用过？一个TcpConnection新连接创建的时候 TcpConnection => Channel
 void Channel::tie(const std::shared_ptr<void> &obj)
 {
     tie_ = obj;
@@ -28,7 +28,7 @@ void Channel::tie(const std::shared_ptr<void> &obj)
 /**
  * 当改变channel所表示fd的events事件后，update负责在poller里面更改fd相应的事件epoll_ctl
  * EventLoop => ChannelList   Poller
- */ 
+ */
 void Channel::update()
 {
     // 通过channel所属的EventLoop，调用poller的相应方法，注册fd的events事件

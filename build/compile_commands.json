@@ -6,8 +6,13 @@
 },
 {
   "directory": "/home/cj/CJPro/mymuduo/build/test",
-  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.o -c /home/cj/CJPro/mymuduo/src/InetAddress.cc",
-  "file": "/home/cj/CJPro/mymuduo/src/InetAddress.cc"
+  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/__/src/Channel.cpp.o -c /home/cj/CJPro/mymuduo/src/Channel.cpp",
+  "file": "/home/cj/CJPro/mymuduo/src/Channel.cpp"
+},
+{
+  "directory": "/home/cj/CJPro/mymuduo/build/test",
+  "command": "/usr/bin/c++  -I/home/cj/CJPro/mymuduo/include -g -g -o CMakeFiles/mymuduo.dir/__/src/InetAddress.cpp.o -c /home/cj/CJPro/mymuduo/src/InetAddress.cpp",
+  "file": "/home/cj/CJPro/mymuduo/src/InetAddress.cpp"
 },
 {
   "directory": "/home/cj/CJPro/mymuduo/build/test",

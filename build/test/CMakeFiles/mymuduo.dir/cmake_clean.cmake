@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "../../bin/mymuduo"
   "../../bin/mymuduo.pdb"
-  "CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.o"
-  "CMakeFiles/mymuduo.dir/__/src/InetAddress.cc.o.d"
+  "CMakeFiles/mymuduo.dir/__/src/Channel.cpp.o"
+  "CMakeFiles/mymuduo.dir/__/src/Channel.cpp.o.d"
+  "CMakeFiles/mymuduo.dir/__/src/InetAddress.cpp.o"
+  "CMakeFiles/mymuduo.dir/__/src/InetAddress.cpp.o.d"
   "CMakeFiles/mymuduo.dir/__/src/Logger.cpp.o"
   "CMakeFiles/mymuduo.dir/__/src/Logger.cpp.o.d"
   "CMakeFiles/mymuduo.dir/__/src/Timestamp.cpp.o"

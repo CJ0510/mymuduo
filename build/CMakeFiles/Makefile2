@@ -96,12 +96,12 @@ test/clean: test/CMakeFiles/mymuduo.dir/clean
 test/CMakeFiles/mymuduo.dir/all:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/mymuduo.dir/build.make test/CMakeFiles/mymuduo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cj/CJPro/mymuduo/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mymuduo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cj/CJPro/mymuduo/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target mymuduo"
 .PHONY : test/CMakeFiles/mymuduo.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/mymuduo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cj/CJPro/mymuduo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cj/CJPro/mymuduo/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/mymuduo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cj/CJPro/mymuduo/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/mymuduo.dir/rule
